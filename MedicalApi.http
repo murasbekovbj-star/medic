@@ -1,0 +1,11 @@
+@MedicalApi_HostAddress = http://localhost:5147
+
+GET {{MedicalApi_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{MedicalApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
